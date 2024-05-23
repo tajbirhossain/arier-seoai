@@ -181,6 +181,7 @@ header h2 span {
 }
 
 .headerPro {
+    min-width: 196px;
     height: 47px;
     display: flex;
     align-items: center;
