@@ -3488,6 +3488,82 @@ footer ul li a {
 .authCharTog button.active img {
     filter: brightness(100);
 }
+
+
+
+
+
+
+
+.authFlowChart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.authFlowSingleChart {
+    width: calc(100% / 4 - 15px);
+    height: 206px;
+    border-radius: 8px;
+    border: 1px solid #F2F2FA;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.authFlowSingleChartMain {
+    width: 100%;
+    position: relative;
+}
+
+
+.authFlowSingleChartContent {
+    width: 85%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.authFlowSingleChartText p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #656575;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.authFlowSingleChartText p img {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.authFlowSingleChartText h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #292D32;
+    text-align: center;
+}
+
+.authFlowSingleChartText h3 span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #656575;
+}
+
+
+
+
+
 /* sixth page styles ends */
 
 
