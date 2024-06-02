@@ -5914,6 +5914,545 @@ footer ul li a {
 
 
 
+/* ninth page styles */
+.checkoutWrap {
+    display: flex;
+    justify-content: space-between;
+}
+.checkoutLeft {
+    width: calc(62% - 28px);
+}
+.checkoutLeft h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #292D32;
+    margin-bottom: 20px;
+}
+
+.checkOption {
+    margin-bottom: 20px;
+}
+.checkSingleOpt {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.checkSingleOpt.active {
+    background-color: #EEF6FD;
+}
+.checkSingleOptInp {
+    display: flex;
+    align-items: center;
+}
+
+.checkSingleOptInp input {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.checkSingleOptInp label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+}
+.checkSingleOptInp label img {
+    margin-right: 4px;
+}
+
+
+
+
+.checkSingleOpt p {
+    font-size: 16px;
+    color: #656575;
+}
+
+
+
+
+
+.checkoutLeft h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #292D32;
+    margin-bottom: 16px;
+}
+
+
+
+.checkoutLeft form {
+    width: 100%;
+}
+
+.checkFormInp {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.checkFormInp label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #656575;
+    margin-bottom: 8px;
+}
+
+.checkFormInp input {
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #9B9BAC;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #F1F1F9;
+}
+
+
+.checkFormMultiInp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.checkFormMultiInp .checkFormInp {
+    width: calc(100% / 3 - 5px);
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.checkoutRight {
+    width: calc(38% - 28px);
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkoutRight h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #292D32;
+    margin-bottom: 24px;
+}
+
+.checkoutOrderBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkoutOrderBtn button {
+    width: calc(50% - 6px);
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0080EF;
+    border: 1px solid #0080EF;
+    background-color: transparent;
+}
+
+.checkoutOrderBtn button:first-child {
+    color: #fff;
+    background-color: #0080EF;
+}
+
+
+
+
+.checkPlanWrap {
+    margin-bottom: 16px;
+}
+.checkPlanTop {
+    margin-bottom: 10px;
+}
+.checkPlanPre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.checkPlanPre h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+}
+
+.checkPlanPre p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+}
+
+.checkPlanPre p span {
+    color: #656575;
+}
+
+
+.checkPlanTop small {
+    font-size: 12px;
+    color: #656575;
+}
+
+
+
+.checkPlanBottom {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #F0F0F8;
+}
+
+.checkPlanBottom h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #292D32;
+}
+
+.checkPlanBottom p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #28293D;
+}
+.checkPlanBottom p span {
+    color: #656575;
+}
+
+
+
+
+
+.checkOrderConfirm p {
+    font-size: 14px;
+    color: #656575;
+    margin-bottom: 32px;
+}
+.checkOrderConfirm p span {
+    font-weight: 700;
+}
+
+.checkOrderConfirm button {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0080EF;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.checkoutRightHelp {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #F0F0F8;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    border-radius: 8px;
+}
+
+.checkRightHelpImg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #F0FFFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+
+
+.checkRightHelpText h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+    margin-bottom: 4px;
+}
+
+.checkRightHelpText p {
+    font-size: 14px;
+    color: #656575;
+}
+
+/* ninth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tenth page styles */
+.supWriterHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.supWriterHeadingLeft {
+    display: flex;
+    align-items: center;
+}
+
+
+.supWriterHeadingLeft button {
+    width: 120px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #0080EF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0080EF;
+    margin-right: 12px;
+}
+
+.supWriterHeadingLeft button:first-child {
+    background-color: #F0F0F8;
+    border-color: #F0F0F8;
+    color: #656575;
+}
+
+.supWriterHeadingLeft button img {
+    margin-right: 6px;
+}
+
+
+
+
+.supWriterHeadingRight {
+    display: flex;
+    align-items: center;
+}
+
+.supWriterHeadingRight p {
+    font-size: 14px;
+    color: #656575;
+    margin-right: 8px;
+}
+
+.supWriterHeadingRight span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #EFEFF7;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+}
+
+
+
+
+
+
+
+
+.supWriterConWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.suWriterConLeft {
+    width: 232px;
+}
+
+.suWriterConLeftItem {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EFEFF7;
+}
+.suWriterConLeftItem:last-child {
+    border-bottom: none;
+}
+.suWriterConLeftItem h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #292D32;
+    margin-bottom: 12px;
+}
+
+
+.suWriterConLeftPara textarea {
+    width: 100%;
+    min-height: 56px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #EFEFF7;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #656575;
+    -webkit-appearance: none;
+}
+.suWriterConLeftParaDesc textarea {
+    min-height: 144px;
+    padding: 12px;
+}
+
+
+.suWriterConLeftItem button {
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #0080EF;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+
+.suWriterConLeftChart {
+    width: 100%;
+    height: 188px;
+    position: relative;
+}
+.suWriterConLeftChartInner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+.suWriterConLeftChart h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #292D32;
+    position: absolute;
+    top: 42%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+
+.suWriterConLeftChart h4 span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #656575;
+}
+
+
+
+
+
+.suWriterConLeftItem ul {
+    margin-bottom: 12px;
+}
+.suWriterConLeftItem ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.suWriterConLeftItem ul li p {
+    font-size: 14px;
+    color: #656575;
+    padding-right: 5px;
+}
+.suWriterConLeftItem ul li span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+}
+
+
+
+
+
+
+
+
+
+
+.suWriterConRight {
+    width: calc(100% - 232px - 20px);
+}
+.mainEditor {
+    width: 100%;
+}
+.mainEditor textarea {
+    width: 100%;
+    max-width: 100%;
+}
+.tox-tinymce {
+    height: 1360px !important;
+    border: 1px solid #EFEFF7 !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 4px 40px 0px #0000000D !important;
+}
+.tox-toolbar__group button.tox-tbtn.tox-tbtn--select.tox-tbtn--bespoke {
+    width: 100px !important;
+    background-color: #fff !important;
+    border: 1px solid #656575;
+    border-radius: 8px;
+}
+
+/* tenth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7630,6 +8169,127 @@ footer ul li a {
     }
 }
 /* eighth page responsive ends */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ninth page responsive */
+@media (max-width: 800px) {
+    .checkoutWrap {
+        flex-direction: column;
+    }
+    .checkoutLeft {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .checkoutRight {
+        width: 100%;
+        height: 600px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .checkoutLeft h3 {
+        font-size: 20px;
+    }
+    .checkoutRight h2 {
+        font-size: 20px;
+    }
+
+
+    .checkoutOrderBtn button {
+        height: 44px;
+        font-size: 14px;
+    }
+
+
+    .checkOrderConfirm button {
+        height: 44px;
+        font-size: 14px;
+    }
+}
+/* ninth page responsive ends */
+
+
+
+
+
+
+
+
+
+/* tenth page responsive */
+@media (max-width: 800px) {
+    .supWriterHeadingLeft button {
+        width: 110px;
+        height: 44px;
+        font-size: 12px;
+    }
+    
+    .supWriterHeadingRight p {
+        font-size: 12px;
+    }
+    .supWriterHeadingRight span {
+        font-size: 14px;
+    }
+    
+    
+    
+    
+    .supWriterConWrap {
+        flex-direction: column;
+    }
+    .suWriterConLeft {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+    .suWriterConLeftItem {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
+    
+    
+    .suWriterConRight {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .supWriterHeading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .supWriterHeadingLeft {
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+    .supWriterHeadingLeft button {
+        margin-bottom: 8px;
+    }
+}
+
+
+
+
+@media (max-width: 450px) {
+    .suWriterConLeftItem {
+        width: 100%;
+    }
+}
+/* tenth page responsive ends */
 
 
 
