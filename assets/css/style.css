@@ -6457,6 +6457,344 @@ footer ul li a {
 
 
 
+/* eleventh page styles */
+.serpCheckHeading {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 10;
+}
+.serpCheckHeading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #292D32;
+    margin-bottom: 8px;
+}
+
+.serpCheckHeading p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #292D32;
+}
+
+
+
+
+.serpCheckKeyFil {
+    display: block;
+    position: relative;
+}
+
+.serpCheckFilTog {
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.serpCheckFilTog button {
+    width: 160px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #656575;
+    border: none;
+    background-color: #F3F3FB;
+    position: relative;
+}
+
+.serpCheckFilTog button.active {
+    background-color: #fff;
+}
+
+.serpCheckFilTog button.active::before {
+    width: 100%;
+    height: 3px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0080EF;
+}
+
+
+
+.serpCheckKeyFil form {
+    width: 80%;
+    border-radius: 0;
+    position: relative;
+    z-index: 10;
+}
+.serpCheckKeyFil form .serpKeyFilInp {
+    width: calc(100% / 3 - 60px);
+}
+.serpCheckKeyFil form button {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 0;
+}
+.serpCheckKeyFil form button img {
+    margin-left: 8px;
+}
+
+
+
+.serpcheckKeyFilHint {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292D32;
+    margin-top: 24px;
+}
+
+.serpcheckKeyFilHint a {
+    color: #0080EF;
+}
+
+
+.serpCheckAstronautImg {
+    width: 300px;
+    position: absolute;
+    top: -214px;
+    right: 13%;
+}
+/* eleventh page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+/* twelfth page styles */
+.searchKeyInit form button {
+    background: linear-gradient(267deg, rgba(255,165,37,0.938813025210084) 10%, rgba(249,20,4,1) 91%);
+}
+
+.searchKeyInitAstronautImg {
+    top: -150px;
+}
+/* twelfth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+/* thirteenth page styles */
+.serpWatchInitFil form .serpKeyFilInp {
+    width: calc(100% - 180px);
+}
+.serpWatchInitFil form .serpKeyFilInp::after {
+    content: unset;
+}
+
+.serpWatchInitAstronautImg {
+    top: -200px;
+}
+
+/* thirteenth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+/* fourteenth page styles */
+.linkBuildMinerFil form .serpKeyFilInp {
+    width: calc(100% - 190px - 180px);
+}
+
+.linkBuildMinerFilInp {
+    width: 190px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkBuildMinerFilInp input {
+    margin-right: 6px;
+    width: 14px;
+    height: 14px;
+}
+
+.linkBuildMinerFilInp label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #656575;
+}
+
+
+.linkBuildMinerAstronautImg {
+    top: -240px;
+}
+/* fourteenth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fifteenth page styles */
+.seoAuthInitAstronautImg {
+    top: -250px;
+}
+/* fifteenth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+/* sixteenth page styles */
+/* sixteenth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+
+/* seventheenth page styles */
+.analyticsWebFil {
+    margin-bottom: 24px;
+}
+
+
+.analyticsWebFil form .serpKeyFilInp {
+    width: calc(100% / 2 - 185px);
+}
+
+
+.analyticsWebFil form .serpKeyFilInpLast {
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.analyticsWebFil form .serpKeyFilInpLast input {
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    border: unset;
+    -webkit-appearance: auto;
+    margin-right: 6px;
+}
+
+.analyticsWebFil form .serpKeyFilInpLast label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #656575;
+}
+
+
+
+.analyticWebAstronautImg {
+    top: -250px;
+}
+
+
+
+.analyticWebTextarWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.analyticWebTextarWrap textarea {
+    width: calc(100% / 3 - 8px);
+    max-width: calc(100% / 3 - 8px);
+    height: 48px;
+    padding: 14px;
+    font-weight: 500;
+    color: #656575;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.analyticWebTextarWrap .analyticWebTextarInp {
+    width: calc(100% / 3 - 8px);
+    display: flex;
+}
+.analyticWebTextarInp input {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+.analyticWebTextarInp h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #292D32;
+}
+.analyticWebTextarInp p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #656575;
+}
+
+
+
+
+
+.analyticWebQues {
+    padding: 10px 0;
+}
+/* seventheenth page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive starts */
 
 
@@ -8290,6 +8628,282 @@ footer ul li a {
     }
 }
 /* tenth page responsive ends */
+
+
+
+
+
+
+
+
+
+
+/* eleventh page responsive */
+@media (max-width: 1100px) {
+    .serpCheckKeyFil form {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .serpCheckAstronautImg {
+        width: 200px;
+        right: -2px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .serpCheckHeading h2 {
+        font-size: 32px;
+    }
+    .serpCheckHeading p {
+        font-size: 15px;
+    }
+
+
+
+
+    .serpCheckKeyFil form .serpKeyFilInp {
+        width: calc(100% / 3);
+    }
+    .serpKeyFil form button {
+        border-radius: 0;
+    }
+    .serpCheckAstronautImg {
+        width: 100px;
+        top: -67px;
+    }
+
+
+    .serpcheckKeyFilHint {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .serpCheckFilTog button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+
+    .serpCheckKeyFil form .serpKeyFilInp {
+        width: 50%;
+    }
+    .serpCheckKeyFil form .serpKeyFilInpLast {
+        width: 100%;
+    }
+}
+/* eleventh page responsive ends */
+
+
+
+
+
+
+
+
+
+
+/* twelfth page responsive */
+@media (max-width: 990px) {
+    .searchKeyInitAstronautImg {
+        width: 250px;
+        top: -100px;
+        right: 0;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .searchKeyInitAstronautImg {
+        top: -50px;
+        width: 150px;
+        right: -2px;
+    }
+}
+
+
+
+
+@media (max-width: 650px) {
+    .searchKeyInitAstronautImg {
+        width: 100px;
+    }
+}
+
+
+
+/* twelfth page responsive ends */
+
+
+
+
+
+
+
+/* thirteenth page responsive */
+@media (max-width: 650px) {
+    .serpWatchInitFil form .serpKeyFilInp {
+        width: 100%;
+    }
+}
+/* thirteenth page responsive ends */
+
+
+
+
+
+
+
+
+
+
+/* fourteenth page responsive */
+@media (max-width: 650px) {
+    .linkBuildMinerFil form .serpKeyFilInp {
+        width: calc(100% - 190px);
+    }
+}
+
+@media (max-width: 450px) {
+    .linkBuildMinerFil form .serpKeyFilInp {
+        width: 100%;
+    }
+
+    .linkBuildMinerFilInp {
+        width: 100%;
+        height: 48px;
+        justify-content: flex-start;
+        padding: 0 12px;
+    }
+}
+/* fourteenth page responsive ends */
+
+
+
+
+
+
+
+
+
+/* fifteenth page responsive */
+@media (max-width: 990px) {
+    .seoAuthInitAstronautImg {
+        top: -200px;
+        right: 0;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .seoAuthInitAstronautImg {
+        top: -100px;
+        right: -2px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .seoAuthInitAstronautImg {
+        top: -70px;
+    }
+}
+/* fifteenth page responsive ends */
+
+
+
+
+
+
+
+
+
+/* sixteenth page responsive */
+
+/* sixteenth page responsive ends */
+
+
+
+
+
+
+
+
+
+
+/* seventeenth page responsive */
+@media (max-width: 1350px) {
+    .analyticsWebFil form .serpKeyFilInp input {
+        padding-left: 12px;
+    }
+    .analyticsWebFil form .serpKeyFilInpFirst input {
+        padding-left: 32px;
+    }
+}
+
+
+
+@media (max-width: 1300px) {
+    .analyticsWebFil form {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 850px) {
+    .analyticsWebFil form {
+        flex-wrap: wrap;
+    }
+
+    .analyticsWebFil form .serpKeyFilInp {
+        width: calc(100% / 2);
+    }
+
+    .analyticsWebFil form .serpKeyFilInpLast {
+        width: calc(100% - 180px);
+        justify-content: flex-start;
+        padding: 0 10px;
+    }
+}
+
+
+
+
+@media (max-width: 650px) {
+    .analyticWebTextarWrap {
+        flex-direction: column;
+    }
+
+    .analyticWebTextarWrap textarea {
+        width: 100%;
+        max-width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .analyticWebTextarWrap .analyticWebTextarInp {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .analyticsWebFil form .serpKeyFilInp {
+        width: 100%;
+    }
+}
+/* seventeenth page responsive ends */
 
 
 
